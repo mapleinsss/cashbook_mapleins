@@ -1,13 +1,16 @@
 <template>
-  <v-row>
-    <v-toolbar>
-      <v-btn icon to="/index">
-        <v-icon>mdi-arrow-left</v-icon>
-      </v-btn>
+  <div>
+    <v-row>
+      <v-toolbar flat>
+        <v-btn icon to="/index" class="ml-1">
+          <v-icon>mdi-arrow-left</v-icon>
+        </v-btn>
 
-      <v-toolbar-title>{{$route.meta.title}}</v-toolbar-title>
-    </v-toolbar>
-  </v-row>
+        <v-toolbar-title>{{$route.meta.title}}</v-toolbar-title>
+      </v-toolbar>
+    </v-row>
+    <v-divider class="mb-3"/>
+  </div>
 </template>
 
 <script>

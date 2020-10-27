@@ -10,7 +10,7 @@
     </v-btn>
 
     <v-btn to="record">
-      <span>记一笔</span>
+      <span class="orange--text">记一笔</span>
       <v-icon color="orange">fa fa-plus-square-o</v-icon>
     </v-btn>
 
